@@ -13,3 +13,4 @@ Naruto = Anime("Naruto",1000,"hinata","the_best")
 Saske = Anime('Saske', 1000, 'himself', 'nothing')
 you = Anime('хз', '-31','nothing', 'no')
 
+print(Saske.love)

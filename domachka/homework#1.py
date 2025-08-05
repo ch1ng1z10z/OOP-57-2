@@ -13,4 +13,9 @@ Naruto = Anime("Naruto",1000,"hinata","the_best")
 Saske = Anime('Saske', 1000, 'himself', 'nothing')
 you = Anime('хз', '-31','nothing', 'no')
 
+class Anime_netflics(Anime):
+    def __init__(self,name, power_live ,love, beautiful, mera_black):
+        super().__init__(name, power_live ,love, beautiful,)
+        self.mera_black = mera_black
+
 print(Saske.love)

@@ -1,8 +1,9 @@
 
 def uppercase(func):
-    def fg():
-        for i in func:
-            fg(i.upper())
+    def wrapper(f):
+        print(f.upper)
+        func()
+    return wrapper
 
 
 @uppercase
